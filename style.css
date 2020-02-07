@@ -1,0 +1,66 @@
+
+/* add a color to the whole body*/
+body
+{
+    background-color: purple;
+}
+
+/*the style of tabs */
+.tabs
+{
+    background: gray;
+    height: 300px;
+}
+
+/* the style of the div of the buttons*/
+.tabs-buttons
+{
+    margin-left:50px;
+}
+
+/* the style of the buttons*/
+.tabs-button
+{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    width: 320px;
+    margin: 20px;
+    border: hidden;
+    background-color: silver;
+    font-size: large;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+/* the style of the hover of the buttons*/
+ .container .tabs-buttons button:hover{
+    background: gold;
+    color: white;
+}
+
+/* the style of the panels*/
+.container .tabs-panel
+{
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    color: white;
+    background: silver;
+    height: 350px;
+    display: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    
+}
+
+
+
+
+
+
+
+
+
+
